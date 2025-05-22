@@ -17,3 +17,5 @@ coverage.*
 
 packages/
 *.nupkg
+
+.vs
