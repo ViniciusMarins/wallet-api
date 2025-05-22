@@ -114,13 +114,13 @@ Uma API RESTful para gerenciamento de carteiras, depósitos, transferências e t
 ### Executando a API
 1. **Aplique as migrações do banco de dados**:
     ```bash
-    dotnet ef database update
+    Update-Database
     ```
 2. **Execute a aplicação**:
     ```bash
     dotnet run --project api
     ```
-   - A API estará disponível em `"https://localhost:7076;http://localhost:5214"`
+   - A API estará disponível em `"http://localhost:5214"`
 
 ## Endpoints da API
 
