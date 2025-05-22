@@ -264,3 +264,21 @@ Uma API RESTful para gerenciamento de carteiras, depósitos, transferências e t
       "message": "Wallet not found or does not belong to the user."
     }
     ```
+### Testes Unitários
+
+Testes unitários foram implementados para os controllers e services usando xUnit e Moq. Os testes cobrem:
+  - Operações bem-sucedidas (ex.: consulta de saldo, depósitos, transferências, histórico de transações).
+  - Casos de erro (ex.: carteira não encontrada, acesso não autorizado).
+  - Códigos de status (200 OK, 201 Created, 404 Not Found).
+  - Tratamento de tipos anônimos para validação de respostas.
+  - Confiabilidade dos dados e retorno.
+
+## Executando os Testes
+1. **Navegue até o projeto de testes:**:
+    ```bash
+    cd api.Tests
+    ```
+2. **Execute os testes:**:
+    ```bash
+    dotnet test
+    ```
