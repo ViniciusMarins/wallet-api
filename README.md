@@ -89,7 +89,7 @@ Uma API RESTful para gerenciamento de carteiras, depósitos, transferências e t
     git clone https://github.com/ViniciusMarins/wallet-api.git
     cd wallet-api
     ```
-2. **Atualize o `appsettings.json`**:
+2. **Crie/Atualize o `appsettings.json`**:
     ```json
     {
       "ConnectionStrings": {
