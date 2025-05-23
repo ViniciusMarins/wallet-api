@@ -15,6 +15,7 @@ Uma API RESTful para gerenciamento de carteiras, depósitos, transferências e t
   - Endpoints de Autenticação
   - Endpoints de Usuário
   - Endpoints de Carteira
+- Teste Unitários
 
 ## Funcionalidades
 - **Gerenciamento de Usuários**: Criação de usuários com carteiras associadas.
