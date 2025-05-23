@@ -227,18 +227,17 @@ Uma API RESTful para gerenciamento de carteiras, depósitos, transferências e t
       "message": "Transfer completed successfully."
     }
     ```
-  - **Erros**:
-    - 404 Not Found:
-      ```json
-      {
-        "message": "Source wallet not found or does not belong to the user."
-      }
-      ```
-      ```json
-      {
-        "message": "Destination wallet not found."
-      }
-      ```
+  - **Erro** (404 Not Found):
+    ```json
+    {
+      "message": "Source wallet not found or does not belong to the user."
+    }
+    ```
+    ```json
+    {
+      "message": "Destination wallet not found."
+    }
+    ```
 
 - **GET /api/v1/wallets/{code}/transactions**
   - **Descrição**: Recupera o histórico de transações de uma carteira.
